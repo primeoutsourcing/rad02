@@ -1,4 +1,6 @@
-/* Style: striped-purple */
+/**
+ * Style: striped-purple
+ */
 
 body { background:#000000 url(striped-purple/bg-tile.jpg) repeat center top;}
 #wrap { background: url(striped-purple/bg.jpg) repeat-x center top; }

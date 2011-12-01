@@ -136,7 +136,9 @@ img.remove, img.edit  { cursor: pointer; margin: 0 5px 0 0; }
 
 #dialog-confirm label { padding-left: 10px; }
 
-/* EDIT LINK BOX */
+/**
+ * EDIT LINK BOX
+ */
 .ui-dialog  { background: #fff; border: 1px solid #555555; -moz-box-shadow:0 4px 30px #000000; }
 .ui-dialog-titlebar  { color: #CFCFCF;font-family:"Lucida Grande",Verdana,Arial,sans-serif; padding: 6px 10px 6px; background-color: #222222!important; border: none!important; -moz-border-radius: none!important; }
 #dialog-confirm  { height: 168px !important; padding: 20px 10px 10px; }

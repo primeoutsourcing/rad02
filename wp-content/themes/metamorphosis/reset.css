@@ -1,6 +1,10 @@
-/* Reset / Default styles */
+/**
+ *  Reset / Default styles 
+ */
 
-/* General */
+/**
+ *  General 
+ */
 
 html, body {font-family: arial;	font-size: 12px;border: 0;color: #555555; background: #FFFFFF;}
 body, img, p, h1, h2, h3, h4, h5, ul, ol, li, form, blockquote { margin: 0;	padding: 0;}
@@ -14,7 +18,9 @@ a:hover {text-decoration: none;}
 a img {border: none;}
 blockquote p {padding: 5px 0;}
 
-/* Align */
+/**
+ *  Align
+ */
 
 .aligncenter {margin: 10px auto 20px auto;display: block;}
 .alignleft {margin: 10px 20px 8px 0;float: left;}
@@ -22,7 +28,9 @@ blockquote p {padding: 5px 0;}
 .col-left {float: left;}
 .col-right {float: right;}
 
-/* PageNavi */
+/**
+ *  PageNavi
+ */
 
 .more_entries {width: 100%;font-size: 12px;font-weight: bold;padding: 5px 0;}
 .more_entries .wp-pagenavi {clear:both;float: right;}
@@ -39,7 +47,9 @@ blockquote p {padding: 5px 0;}
 .more_entries .wp-pagenavi .on,
 .more_entries .wp-pagenavi span.pages { background: #9F9F9F;color: #fff; padding: 5px 9px !important; padding:5px; margin-left: 4px; border:0; line-height:24px; }
 
-/* Misc */
+/**
+ *  Misc 
+ */
 
 .wrap:after{content: "."; display: block;height: 0;clear: both; visibility: hidden;}
 .fix{clear: both;height: 1px;margin: -1px 0 0;overflow: hidden}

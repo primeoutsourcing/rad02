@@ -1,4 +1,4 @@
-/*
+/**
  * 	loopedSlider - jQuery plugin
  *	written by Nathan Searles	
  *	http://code.google.com/p/loopedslider/

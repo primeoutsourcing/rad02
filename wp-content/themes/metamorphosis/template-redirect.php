@@ -1,20 +1,20 @@
 <?php
-/*
-Template Name: Redirect
-*/
+/**
+ * Template Name: Redirect
+ */
 ?>
 
 <?php 
-/* 
-
-USAGE INSTRUCTIONS:
-
-1. Create a new page in WordPress
-2. Add a title to the page (e.g. primeThemes)
-3. Add an URL to the content of the page (e.g. http://www.primethemes.com OR primethemes.com OR www.primethemes.com)
-4. Publish!
-
-*/
+/**
+ * 
+ * USAGE INSTRUCTIONS:
+ * 
+ * 1. Create a new page in WordPress
+ * 2. Add a title to the page (e.g. primeThemes)
+ * 3. Add an URL to the content of the page (e.g. http://www.primethemes.com OR primethemes.com OR www.primethemes.com)
+ * 4. Publish!
+ * 
+ */
 ?>
 
 <?php if (have_posts()) : the_post(); ?>

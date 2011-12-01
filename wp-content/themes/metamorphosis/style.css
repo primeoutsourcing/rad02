@@ -1,17 +1,19 @@
-/*  
-Theme Name: Meta-Morphosis
-Version: 1.4.2
-Description: Designed by <a href="http://www.primethemes.com">primeThemes</a>.
-Author: primeThemes
-Author URI: http://www.primethemes.com
+/**
+ * Theme Name: Meta-Morphosis
+ * Version: 1.4.2
+ * Description: Designed by <a href="http://www.primethemes.com">primeThemes</a>.
+ * Author: primeThemes
+ * Author URI: http://www.primethemes.com
+ * 
+ * 	Copyright: (c) 2009 primeThemes.
+ * 	License: GNU General Public License v2.0
+ * 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * 
+ */
 
-	Copyright: (c) 2009 primeThemes.
-	License: GNU General Public License v2.0
-	License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-*/
-
-/* Default styles */
+/**
+ *  Default styles 
+ */
 @import "reset.css";
 
 body {
@@ -22,11 +24,15 @@ body {
 	background: none; 
 }
 
-/* Wrap */
+/**
+ *  Wrap 
+ */
 
 #wrap { }
 
-/* Top */
+/**
+ *  Top 
+ */
 
 #top {
 	width: 960px;
@@ -36,7 +42,9 @@ body {
 	z-index:999;
 }
 
-/* Page Nav */
+/**
+ *  Page Nav
+ */
 
 #pagenav li a:link, #pagenav li a:visited {
 	position: relative;
@@ -96,7 +104,9 @@ body {
 	background: url(images/top-nav-right.png) no-repeat left bottom !important;
 }
 
-/* Cat Nav */
+/**
+ *  Cat Nav
+ */
 
 #menu { 
 	background:url(images/cat-nav.png) no-repeat top left;
@@ -133,7 +143,9 @@ body {
 	background:#999;
 }
 
-/* Style drop down list */
+/**
+ *  Style drop down list
+ */
 
 #catnav li ul { position: absolute; width: 182px; left: -999em; margin:0; }
 #catnav li ul li {	border: 1px solid #ccc; border-width:0 1px 1px; background: #FFF; z-index: 15; position: relative; }
@@ -147,7 +159,9 @@ body {
 #catnav li:hover ul, #catnav li li:hover ul, #catnav li.sfhover ul, #catnav li li.sfhover ul { left: auto; }
 #catnav li:hover, #catnav li.hover { position: static; } /* IE7 Fix */
 
-/* Search */
+/**
+ * Search
+ */
 
 #search { position:absolute; right:20px; top:10px; width: 178px; height:32px; display:block; }
 #search input { 
@@ -158,7 +172,9 @@ body {
 	width:157px;
 }
 
-/* Header */
+/**
+ * Header 
+ */
 
 #header {
 	width: 100%;
@@ -171,7 +187,9 @@ body {
 #header a { width:500px; height:100px; display:block; }
 #header h1 { position:absolute; left:-999em; }
 
-/* Content */
+/**
+ * Content
+ */
 
 #content {
 	background:#fff url(images/bg-content.png) repeat-y right;
@@ -191,7 +209,9 @@ body {
 #main-full { padding:20px 0 0px 20px; width:920px; }
 
 
-/* Content (style) */
+/**
+ * Content (style) 
+ */
 
 #content a { text-decoration: underline; }
 #content a:hover {	text-decoration: none; }
@@ -214,7 +234,9 @@ body {
 	width:85%;
 }
 
-/* Main Content (post) */
+/**
+ * Main Content (post) 
+ */
 
 #content .post { padding:0 5px 15px 0; }
 #content .post-title {	width: 100%; position: relative; }
@@ -261,7 +283,9 @@ body {
 
 
 
-/* Main Content (post>single) */
+/**
+ *  Main Content (post>single) 
+ */
 
 #content p.tags {
 	background:url(images/ico-tag.gif) no-repeat center left;
@@ -272,7 +296,9 @@ body {
 .single #content .advert_468x60 {margin: 15px 0 0px 0;}
 #content .page h2 {padding-top: 5px;}
 
-/* Comments */
+/**
+ *  Comments
+ */
 
 #comments h3 { font-size: 20px;	font-weight: normal;padding: 10px 0 20px 0;}
 
@@ -341,7 +367,9 @@ body {
 	cursor:pointer;
 }
 
-/* (widgets)*/
+/**
+ *  (widgets)
+ */
 
 #tag_cloud h2 {display: block;float: none;}
 .textwidget {clear: both;padding: 5px 2px;line-height:20px;}
@@ -364,7 +392,9 @@ body {
 #wp-calendar a {text-decoration: underline;}
 #wp-calendar a:hover {text-decoration: none;}
 
-/* (flickr) */
+/**
+ *  (flickr)
+ */
 
 #flickr .flickr_badge_image  { float: left; }
 
@@ -387,7 +417,9 @@ body {
 }
 #flickr a:hover img {border: #A8AA99 1px solid;}
 
-/* widget-slider */
+/**
+ *  widget-slider
+ */
 #slider-top { background:url(images/bg-footer-top.png) no-repeat; width:960px; height:12px; font-size:1px }
 #slider-bot { background:url(images/bg-footer-bot.png) no-repeat; width:960px; height:12px; }
 #slider-block { background-color:#242527; position:relative; min-height:300px; width:960px; overflow:hidden; }
@@ -407,7 +439,9 @@ body {
 .container ul.widget li ul li { padding:10px 0; background:url(images/footer-dot.png) repeat-x bottom; }
 
 				
-/* Footer */
+/**
+ *  Footer
+ */
 
 #footer {
 	width: 960px;
@@ -420,7 +454,9 @@ body {
 #footer .col-right img {vertical-align: middle;}
 #footer .col-right span {display: none;}
 
-/* Gravity forms */
+/**
+ *  Gravity forms
+ */
 
 .gfield { margin-bottom: 10px; }
 .gform_wrapper .top_label .gfield_label { display:block;float:left; padding-right:20px; width: 100px; margin: 5px 0px 4px !important; }
