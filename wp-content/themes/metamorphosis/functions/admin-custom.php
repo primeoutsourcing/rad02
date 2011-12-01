@@ -1,6 +1,4 @@
 <?php 
-
-
 /**
  * 
  * TABLE OF CONTENTS
@@ -17,8 +15,6 @@
 /**
  *  Custom fields for WP write panel
  */
-
-
 function primethemes_metabox_create($post,$callback) {
     global $post;
     
@@ -80,6 +76,7 @@ function primethemes_metabox_create($post,$callback) {
                 
                     $prime_metaboxvalue = $prime_metabox['std'];
                 }
+				
                 if($prime_metabox['type'] == 'info'){
                 
                     $output .= "\t".'<tr style="background:#f8f8f8; font-size:11px; line-height:1.5em;">';
@@ -87,8 +84,7 @@ function primethemes_metabox_create($post,$callback) {
                     $output .= "\t\t".'<td style="font-size:11px;">'.$prime_metabox['desc'].'</td>'."\n";
                     $output .= "\t".'</tr>'."\n";  
                                   
-                }
-                elseif($prime_metabox['type'] == 'text'){
+                } elseif($prime_metabox['type'] == 'text'){
                 
                     $add_class = ''; $add_counter = '';
                     if($template_to_show == 'seo'){$add_class = 'word-count'; $add_counter = '<span class="counter">0 characters, 0 words</span>';}
