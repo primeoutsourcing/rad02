@@ -23,6 +23,12 @@
 
 define('THEME_FRAMEWORK','primethemes');
 
+/**
+ * Add default options and show Options Panel after activate
+ *
+ * Add default options and show Options Panel after activate  
+ */
+
 if (is_admin() && isset($_GET['activated'] ) && $pagenow == "themes.php" ) {
 
     //Call action that sets
@@ -77,10 +83,6 @@ if (!function_exists('prime_option_setup')) {
 /**
  * Admin Backend
  */
-<<<<<<< HEAD
-
-=======
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 if (!function_exists('primethemes_admin_head')) {
     function primethemes_admin_head() { 
         
@@ -97,10 +99,7 @@ add_action('admin_head', 'primethemes_admin_head');
 /**
  * Theme Header output - wp_head()
  */
-<<<<<<< HEAD
 
-=======
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 if (!function_exists('primethemes_wp_head')) {
     function primethemes_wp_head() { 
         
@@ -153,10 +152,7 @@ add_action('wp_head', 'primethemes_wp_head');
 /**
  * Output CSS from standarized options
  */
-<<<<<<< HEAD
 
-=======
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 if (!function_exists('prime_head_css')) {
     function prime_head_css() {
     
@@ -196,10 +192,7 @@ if (!function_exists('prime_head_css')) {
 /**
  * Post Images from WP2.9+ integration
  */
-<<<<<<< HEAD
 
-=======
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 if(function_exists('add_theme_support')){
     if(get_option('prime_post_image_support') == 'true'){
         add_theme_support( 'post-thumbnails' );
@@ -221,10 +214,7 @@ if(function_exists('add_theme_support')){
 /**
  * Enqueue comment reply script
  */
-<<<<<<< HEAD
 
-=======
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 if (!function_exists('prime_comment_reply')) {
     function prime_comment_reply() {
         if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
