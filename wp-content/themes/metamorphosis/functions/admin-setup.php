@@ -23,15 +23,6 @@
 
 define('THEME_FRAMEWORK','primethemes');
 
-/**
-<<<<<<< HEAD
- * Add default options and show Options Panel after activate
- */
-
-=======
- * Add default options and show Options Panel after activate  */
- */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 if (is_admin() && isset($_GET['activated'] ) && $pagenow == "themes.php" ) {
 
     //Call action that sets
