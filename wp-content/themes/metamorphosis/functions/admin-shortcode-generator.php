@@ -112,7 +112,7 @@ class primeThemes_Shortcode_Generator {
 	
 	function filter_mce_external_plugins( $plugins ) {
 		
-=======
+/*
  *   Class Variables
  *   
  *   * Setup of variable placeholders, to be populated when the constructor runs.
@@ -199,7 +199,7 @@ class primeThemes_Shortcode_Generator {
         
         return $plugins;
         
-<<<<<<< HEAD
+
 	} // End filter_mce_external_plugins()
 	
 /**
@@ -213,7 +213,7 @@ class primeThemes_Shortcode_Generator {
   *
   * Returns the full URL of the primeFramework, including trailing slash.
   */
-=======
+
     } // End filter_mce_external_plugins()
     
 /**
@@ -227,7 +227,7 @@ class primeThemes_Shortcode_Generator {
  *   
  *   * Returns the full URL of the primeFramework, including trailing slash.
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 
 function framework_url() {
     
@@ -245,7 +245,7 @@ function framework_url() {
   * NOTE: For users that are not logged in this is not called.
   * The client recieves <code>-1</code> in that case.
   */
-=======
+/*
  *   ajax_action_check_url()
  *   
  *   * Checks if a given url (via GET or POST) exists.
@@ -254,7 +254,7 @@ function framework_url() {
  *   * NOTE: For users that are not logged in this is not called.
  *   * The client recieves <code>-1</code> in that case.
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 
 function ajax_action_check_url() {
 
@@ -281,12 +281,13 @@ function ajax_action_check_url() {
   *
   * Used for testing that the shortcodes are functioning.
   */
-=======
+
+  /*
  *   shortcode_testing()
  *   
  *   * Used for testing that the shortcodes are functioning.
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 
 function shortcode_testing( $atts, $content = null ) {
     
@@ -301,11 +302,8 @@ function shortcode_testing( $atts, $content = null ) {
 /**
 <<<<<<< HEAD
   * INSTANTIATE CLASS
-  */
-=======
  *   INSTANTIATE CLASS
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 
 $prime_shortcode_generator = new primeThemes_Shortcode_Generator();
 ?>

@@ -58,11 +58,9 @@ if (!function_exists("prime_remove_wpautop")) {
 <<<<<<< HEAD
   * 1.1 Output shortcode JS in footer
   */
-
-=======
+/*
  * 1.1 Output shortcode JS in footer
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 
 // Enqueue shortcode JS file.
 
@@ -131,7 +129,6 @@ if (!function_exists("prime_output_shortcode_js")) {
 }
 add_action('wp_footer', 'prime_output_shortcode_js');
 
-<<<<<<< HEAD
 /*===================================================================================*/
 /* 2. Boxes - box
 /*===================================================================================*/
@@ -145,7 +142,6 @@ add_action('wp_footer', 'prime_output_shortcode_js');
  	- icon: none OR full URL to a custom icon 
 */
 
-=======
 /**
  * 2. Boxes - box
  */
@@ -160,7 +156,7 @@ add_action('wp_footer', 'prime_output_shortcode_js');
  *  - icon: none OR full URL to a custom icon 
  * 
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_box($atts, $content = null) {
    extract(shortcode_atts(array(    'type' => 'normal',
                                     'size' => '',
@@ -179,7 +175,7 @@ function prime_shortcode_box($atts, $content = null) {
 }
 add_shortcode('box', 'prime_shortcode_box');
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 3. Buttons - button
 /*===================================================================================*/
@@ -196,7 +192,6 @@ add_shortcode('box', 'prime_shortcode_box');
  	- window: true/false
 */
 
-=======
 /**
  * 3. Buttons - button
  */
@@ -214,7 +209,7 @@ add_shortcode('box', 'prime_shortcode_box');
  *  - window: true/false
  *  
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_button($atts, $content = null) {
     extract(shortcode_atts(array(   'size' => '',
                                     'style' => '',
@@ -292,7 +287,6 @@ function prime_shortcode_button($atts, $content = null) {
 add_shortcode('button', 'prime_shortcode_button');
 
 
-<<<<<<< HEAD
 /*====================================================================================*/
 /* 4. Related Posts - related_posts
 /*===================================================================================*/
@@ -303,7 +297,7 @@ add_shortcode('button', 'prime_shortcode_button');
 	- limit: number of posts to show (default: 5)
 	- image: thumbnail size, 0 = off (default: 0)
 */
-=======
+
 /**
  * 4. Related Posts - related_posts
  */
@@ -314,7 +308,6 @@ add_shortcode('button', 'prime_shortcode_button');
  *  - limit: number of posts to show (default: 5)
  *  - image: thumbnail size, 0 = off (default: 0)
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 
 function prime_shortcode_related_posts( $atts ) {
  
@@ -381,7 +374,7 @@ function prime_shortcode_related_posts( $atts ) {
 add_shortcode('related_posts', 'prime_shortcode_related_posts');
 
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 5. Tweetmeme button - tweetmeme
 /*===================================================================================*/
@@ -418,7 +411,7 @@ function prime_shortcode_tweetmeme($atts, $content = null) {
 	
 	$output .= '<div class="prime-tweetmeme '.$float.'"><script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script></div>';
 	return $output;
-=======
+
 /**
  * 5. Tweetmeme button - tweetmeme
  */
@@ -455,12 +448,12 @@ function prime_shortcode_tweetmeme($atts, $content = null) {
     
     $output .= '<div class="prime-tweetmeme '.$float.'"><script type="text/javascript" src="http://tweetmeme.com/i/scripts/button.js"></script></div>';
     return $output;
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 
 }
 add_shortcode('tweetmeme', 'prime_shortcode_tweetmeme');
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 6. Twitter button - twitter
 /*===================================================================================*/
@@ -505,7 +498,7 @@ function prime_shortcode_twitter($atts, $content = null) {
 	
 	$output = '<div class="prime-sc-twitter '.$float.'"><a href="http://twitter.com/share" class="twitter-share-button"'.$output.' data-count="'.$style.'">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>';	
 	return $output;
-=======
+
 /**
  * 6. Twitter button - twitter
  */
@@ -550,12 +543,12 @@ function prime_shortcode_twitter($atts, $content = null) {
     
     $output = '<div class="prime-sc-twitter '.$float.'"><a href="http://twitter.com/share" class="twitter-share-button"'.$output.' data-count="'.$style.'">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>';   
     return $output;
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 
 }
 add_shortcode('twitter', 'prime_shortcode_twitter');
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 7. Digg Button - digg
 /*===================================================================================*/
@@ -570,7 +563,7 @@ add_shortcode('twitter', 'prime_shortcode_twitter');
  	- float: none, left, right (default: left)
  */
 
-=======
+
 /**
  * 7. Digg Button - digg
  */
@@ -586,7 +579,7 @@ add_shortcode('twitter', 'prime_shortcode_twitter');
  *  - float: none, left, right (default: left)
  *  
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_digg($atts, $content = null) {
     extract(shortcode_atts(array(   'link' => '',
                                     'title' => '',
@@ -629,7 +622,7 @@ function prime_shortcode_digg($atts, $content = null) {
 add_shortcode('digg', 'prime_shortcode_digg');
 
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 8. Facebook Like Button - fblike
 /*===================================================================================*/
@@ -648,7 +641,7 @@ add_shortcode('digg', 'prime_shortcode_digg');
  	- font: arial (default), lucida grande, segoe ui, tahoma, trebuchet ms, verdana 
 */
 
-=======
+
 /**
  * 8. Facebook Like Button - fblike
  */
@@ -668,7 +661,7 @@ add_shortcode('digg', 'prime_shortcode_digg');
  *  - font: arial (default), lucida grande, segoe ui, tahoma, trebuchet ms, verdana 
  *  
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_fblike($atts, $content = null) {
     extract(shortcode_atts(array(   'float' => 'none',
                                     'url' => '',
@@ -731,7 +724,6 @@ function prime_shortcode_fblike($atts, $content = null) {
 add_shortcode('fblike', 'prime_shortcode_fblike');
 
 
-<<<<<<< HEAD
 /*===================================================================================*/
 /* 9. Columns
 /*===================================================================================*/
@@ -745,7 +737,7 @@ add_shortcode('fblike', 'prime_shortcode_fblike');
  */
 
 /* ============= Two Columns ============= */
-=======
+
 /**
  * 9. Columns
  */
@@ -763,7 +755,7 @@ add_shortcode('fblike', 'prime_shortcode_fblike');
 /**
  * Two Columns
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 
 function prime_shortcode_twocol_one($atts, $content = null) {
    return '<div class="twocol-one">' . prime_remove_wpautop($content) . '</div>';
@@ -934,7 +926,7 @@ function prime_shortcode_sixcol_five_last($atts, $content = null) {
 add_shortcode('sixcol_five_last', 'prime_shortcode_sixcol_five_last');
 
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 10. Horizontal Rule / Divider - hr - divider
 /*===================================================================================*/
@@ -943,7 +935,7 @@ add_shortcode('sixcol_five_last', 'prime_shortcode_sixcol_five_last');
  * Description: Use to separate text.
  */
 
-=======
+
 /**
  * 10. Horizontal Rule / Divider - hr - divider
  */
@@ -953,7 +945,7 @@ add_shortcode('sixcol_five_last', 'prime_shortcode_sixcol_five_last');
  * Description: Use to separate text. 
  * 
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_hr($atts, $content = null) {
    return '<div class="prime-sc-hr"></div>';
 }
@@ -970,7 +962,7 @@ function prime_shortcode_divider_flat($atts, $content = null) {
 add_shortcode('divider_flat', 'prime_shortcode_divider_flat');
 
 
-<<<<<<< HEAD
+
 /*====================================================================================*/
 /* 11. Quote - quote
 /*====================================================================================*/
@@ -981,7 +973,7 @@ add_shortcode('divider_flat', 'prime_shortcode_divider_flat');
  	- float: left, right
  */
 
-=======
+
 /**
  * 11. Quote - quote
  */
@@ -993,7 +985,7 @@ add_shortcode('divider_flat', 'prime_shortcode_divider_flat');
  *  - float: left, right
  *  
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_quote($atts, $content = null) {
     extract(shortcode_atts(array(   'style' => '',
                                     'float' => ''), $atts));
@@ -1007,7 +999,7 @@ function prime_shortcode_quote($atts, $content = null) {
 }
 add_shortcode('quote', 'prime_shortcode_quote');
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 12. Icon links - ilink
 /*===================================================================================*/
@@ -1019,7 +1011,7 @@ add_shortcode('quote', 'prime_shortcode_quote');
  	- icon: add an url to a custom icon
  */
 
-=======
+
 /**
  * 12. Icon links - ilink
  */
@@ -1032,7 +1024,7 @@ add_shortcode('quote', 'prime_shortcode_quote');
  *  - icon: add an url to a custom icon
  *  
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_ilink($atts, $content = null) {
     extract(shortcode_atts(array( 'style' => 'info', 'url' => '', 'icon' => ''), $atts));  
     
@@ -1044,7 +1036,7 @@ function prime_shortcode_ilink($atts, $content = null) {
 }
 add_shortcode('ilink', 'prime_shortcode_ilink');
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 13. jQuery Toggle
 /*===================================================================================*/
@@ -1059,7 +1051,7 @@ add_shortcode('ilink', 'prime_shortcode_ilink');
  	- display_main_trigger: Display the main trigger on the toggle
  */
  
-=======
+
 /**
  * 13. jQuery Toggle
  */
@@ -1074,7 +1066,7 @@ add_shortcode('ilink', 'prime_shortcode_ilink');
  *  - display_main_trigger: Display the main trigger on the toggle
  *  
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_toggle ( $atts, $content = null ) {
 
         $defaults = array( 'title_open' => 'Hide the Content', 'title_closed' => 'Show the Content', 'hide' => 'yes', 'display_main_trigger' => 'yes', 'style' => 'default', 'border' => 'yes' );
@@ -1109,7 +1101,7 @@ function prime_shortcode_toggle ( $atts, $content = null ) {
 } // End prime_shortcode_toggle()
 
 add_shortcode( 'toggle', 'prime_shortcode_toggle', 99 );
-<<<<<<< HEAD
+
 
 /**
   function prime_shortcode_toggle($atts, $content = null) {
@@ -1139,7 +1131,7 @@ add_shortcode( 'toggle', 'prime_shortcode_toggle', 99 );
  	- float: none, left, right (default: left)
  */
 
-=======
+
 /*
 function prime_shortcode_toggle($atts, $content = null) {
     extract(shortcode_atts(array(   'link' => 'Toggle link', 
@@ -1169,7 +1161,7 @@ add_shortcode('toggle', 'prime_shortcode_toggle');
  *  - float: none, left, right (default: left)
  * 
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
 function prime_shortcode_fbshare($atts, $content = null) {
     extract(shortcode_atts(array( 'url' => '', 'type' => 'button', 'float' => 'left' ), $atts));
                 
@@ -1191,7 +1183,7 @@ function prime_shortcode_fbshare($atts, $content = null) {
 add_shortcode('fbshare', 'prime_shortcode_fbshare');
 
 
-<<<<<<< HEAD
+
 /*===================================================================================*/
 /* 15. Advanced Contact Form - contact_form
 /*===================================================================================*/
