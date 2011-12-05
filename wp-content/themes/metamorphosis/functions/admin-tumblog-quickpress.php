@@ -46,9 +46,6 @@
 
 
 /* Register Actions */
-=======
- */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 
 //Include iphone app functionality
 $content_method = get_option('prime_tumblog_content_method');
@@ -110,14 +107,10 @@ function prime_load_tumblog_css($hook) {
     
 }
 
-<<<<<<< HEAD
 
-/* AJAX Callback Functions */
-=======
 /**
  * AJAX Callback Functions
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 
 //Handles AJAX Form Post from prime QuickPress
 function prime_tumblog_ajax_post() {
@@ -807,14 +800,10 @@ function prime_tumblog_file_upload() {
     else { echo $uploaded_file['url'].'|'.$attach_id.'|'; } // Is the Response
 }
 
-<<<<<<< HEAD
 
-/* Dashboard Widget */
-=======
 /**
  * Dashboard Widget
  */
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 
 // Tumblog Dashboard Widget Output
 function prime_tumblog_dashboard_widget_output() {
