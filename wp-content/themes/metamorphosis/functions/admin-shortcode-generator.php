@@ -194,7 +194,7 @@ class primeThemes_Shortcode_Generator {
     
     function filter_mce_external_plugins( $plugins ) {
         
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
+
         $plugins['primeThemesShortcodes'] = $this->framework_url() . 'js/shortcode-generator/editor_plugin.js';
         
         return $plugins;
