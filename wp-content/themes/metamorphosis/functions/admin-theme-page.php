@@ -8,15 +8,14 @@
  * 
  */
 
-<<<<<<< HEAD
-TABLE OF CONTENTS
+/**
+ * TABLE OF CONTENTS
+ *
+ * - primethemes_more_themes_page
+ * 
+ */
 
-- primethemes_more_themes_page
 
-===================================================================================*/
-
-=======
->>>>>>> dd394a15f331b050865ea9c5351bea7321cee93b
 /**
  * primethemes_more_themes_page
  */
