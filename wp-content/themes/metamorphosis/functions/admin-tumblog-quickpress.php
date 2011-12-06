@@ -29,7 +29,6 @@
 
 /**
  * Register Actions
-<<<<<<< HEAD
  * prime_register_tumblog_dashboard_widget()
  * prime_load_tumblog_libraries()
  * prime_load_tumblog_css()
