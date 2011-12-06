@@ -28,7 +28,6 @@ define('THEME_FRAMEWORK','primethemes');
  *
  * Add default options and show Options Panel after activate  
  */
-
 if (is_admin() && isset($_GET['activated'] ) && $pagenow == "themes.php" ) {
 
     //Call action that sets
