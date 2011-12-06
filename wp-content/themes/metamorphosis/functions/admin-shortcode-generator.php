@@ -30,7 +30,6 @@
 class primeThemes_Shortcode_Generator {
 
 /**
-<<<<<<< HEAD
   * Class Variables
   *
   * Setup of variable placeholders, to be populated when the constructor runs.
@@ -215,19 +214,6 @@ class primeThemes_Shortcode_Generator {
   */
 
     } // End filter_mce_external_plugins()
-    
-/**
- *   Utility Functions
- *   
- *   * Helper functions for this class.
- */
-
-/**
- *   framework_url()
- *   
- *   * Returns the full URL of the primeFramework, including trailing slash.
- */
-
 
 function framework_url() {
     
@@ -236,7 +222,6 @@ function framework_url() {
 } // End framework_url()
 
 /**
-<<<<<<< HEAD
   * ajax_action_check_url()
   *
   * Checks if a given url (via GET or POST) exists.
@@ -245,16 +230,6 @@ function framework_url() {
   * NOTE: For users that are not logged in this is not called.
   * The client recieves <code>-1</code> in that case.
   */
-/*
- *   ajax_action_check_url()
- *   
- *   * Checks if a given url (via GET or POST) exists.
- *   * Returns JSON.
- *   *
- *   * NOTE: For users that are not logged in this is not called.
- *   * The client recieves <code>-1</code> in that case.
- */
-
 
 function ajax_action_check_url() {
 
@@ -276,17 +251,10 @@ function ajax_action_check_url() {
 } // End ajax_action_check_url()
 
 /**
-<<<<<<< HEAD
   * shortcode_testing()
   *
   * Used for testing that the shortcodes are functioning.
   */
-
-  /*
- *   shortcode_testing()
- *   
- *   * Used for testing that the shortcodes are functioning.
- */
 
 
 function shortcode_testing( $atts, $content = null ) {
@@ -300,9 +268,7 @@ function shortcode_testing( $atts, $content = null ) {
 } // End Class
 
 /**
-<<<<<<< HEAD
   * INSTANTIATE CLASS
- *   INSTANTIATE CLASS
  */
 
 $prime_shortcode_generator = new primeThemes_Shortcode_Generator();
