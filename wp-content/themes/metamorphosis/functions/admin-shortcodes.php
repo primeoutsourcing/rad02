@@ -1831,5 +1831,4 @@ add_shortcode( 'social_icon', 'prime_shortcode_socialicon' );
 /**
  * THE END
  */
-asdfsadf
 ?>
